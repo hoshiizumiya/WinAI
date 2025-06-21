@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AIAppT (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AIAppT (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

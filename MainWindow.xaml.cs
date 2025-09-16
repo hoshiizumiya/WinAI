@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml;
+﻿using Microsoft.UI.Windowing;
+using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using System;
@@ -22,6 +23,8 @@ namespace AIAppT
         {
             this.InitializeComponent();
 
+            ExtendsContentIntoTitleBar = true;
+
             // 设置转换器
             InitializeConverters();
 
@@ -44,7 +47,7 @@ namespace AIAppT
             // 或在此处代码中创建
         }
 
-        private async 
+        private async
         Task
 CheckOllamaAvailability()
         {
